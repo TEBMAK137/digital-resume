@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:wght@100&display=swap');
+/*-----------Header--------------*/
+
+.hero {
+  font-size: large;
+  position: relative;
+  bottom: 20px;
+  background-image: url("../images/pexels-lukas-317333.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  padding-bottom: 50px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.main-con {
+  display: flex;
+  justify-content:space-evenly;
+}
+.main-con1{
+  flex: 1;
+}
+.main-con2 {
+  flex: 2;
+}
+.flex-container {
+  display: inline-flex;
+  flex-direction: column;
+}
+.hero2 {
+  font-size: larger;
+  position: relative;
+  top: -20px;
+  padding-top: 5px;
+  background-color: rgb(233, 204, 168);
+}
+nav {
+  padding: 10px;
+  font-size: large;
+  background-image: url("../images/pexels-artem-podrez-7232394.jpg");
+}
+.name {
+  font-variant-caps: petite-caps;
+  color: rgb(105, 66, 66);
+  padding: 10px;
+  border-left: 10px;
+}
+
+/*--------------------------Header------------------------*/
+
+
+.Cert {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  background: #4b99e6;
+  padding: 3px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+body {
+  font-family: system-ui;
+  margin: 0;
+  padding: 0px;
+}
+nav {
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+.round-image {
+  padding: 30px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.emailIMG , .Linked , .GitH , .Insta , .Twitt{
+  width: 30px;
+}
+.E1 {
+  background-color: rgb(226, 169, 216);
+  border-radius: 15px;
+}
+.L1 {
+  background-color: #70a9e1;
+  border-radius: 15px;
+}
+.G1 {
+  background-color: rgb(161, 152, 211);
+  border-radius: 15px;
+}
+.I1 {
+  background-color: rgb(223, 234, 231);
+  border-radius: 15px;
+}
+.T1 {
+  border-radius: 15px;
+  background-color: rgb(99, 136, 173);
+}
+/*-----------Header--------------*/
+h2 {
+  padding: 7px;
+}
+.L {
+  color: #70a9e1;
+}
+.E {
+  color: rgb(158, 104, 168);
+}
+.G {
+  color: rgb(78, 65, 148);
+}
+.container3 {
+  padding-left: 20px;
+  background-color: rgb(233, 210, 210);
+  padding-right: 20px;
+  display: inline-flex;
+  justify-content:main-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.contactInfo {
+  padding-right: 30px;
+}
+main , section {
+  padding-left: 20px;
+}
+
+/*--------------------------Header------------------------*/
+
+
+section {
+  
+  justify-content: flex-start;
+}
+main {
+  float: right;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: 10%;
+}
+.Start {
+  padding-left: 20px;
+  max-width: 50%;
+}
+.CarO , .ConIn {
+  border-top: 10px;
+  background-color: rgb(213, 186, 152);
+  border-radius: 50px;
+}
